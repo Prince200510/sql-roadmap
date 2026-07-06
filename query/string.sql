@@ -25,3 +25,19 @@ SELECT ltrim('   hello');
 select space(7);
 --ascii
 select ascii('p');
+--concat_Ws
+select concat_ws('_', 'Hello', 'World', 'SQL') as concatenated_string;
+--format
+select format(0.981 * 100, 'N2') + '%' as percentage_output;
+--locate
+select locate('maurya', 'prince maruya', 1);
+--lpad
+select lpad('Hello', 10, '*') as left_padded_string;
+--rpad
+select rpad('Hello', 10, '*') as right_padded_string;
+--position
+select position('e' in 'prince');
+--repeat
+select repeat('Hello', 2);
+--strcmp
+select strcmp('Hello', 'Hello') as comparison_result;
