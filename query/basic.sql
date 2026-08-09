@@ -50,3 +50,22 @@ where name like '_a%';
 --null or not null
 select * from employee
 where name is not null;
+
+alter table employee
+add dept varchar(20);
+
+alter table employee
+drop column dept;
+
+update employee
+set salary = 50000
+where id = 2;
+
+delete from employee
+where id = 5;
+
+ALTER TABLE employee
+DROP PRIMARY KEY;
+
+ALTER TABLE employee
+ADD PRIMARY KEY (name);
