@@ -69,3 +69,5 @@ DROP PRIMARY KEY;
 
 ALTER TABLE employee
 ADD PRIMARY KEY (name);
+
+drop table employee;
